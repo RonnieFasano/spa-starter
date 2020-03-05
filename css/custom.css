@@ -33,6 +33,11 @@ img{
    background: none;
    font-size: 1.1rem; 
 }
+
+/* footer */
+a{
+    color: #212529;
+}
 @media screen and (min-width:768px){
     .feature-bg{
         width: 60vw;
@@ -53,6 +58,21 @@ img{
 
     .card{
         margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .title{
+        margin-top: 1em;
+    }
+
+    footer button{
+        margin-top: 1em;
+    }
+
+    footer .col-sm-4{
+        border-bottom: 1px solid #ddd;
+        padding: 20px 10px;
     }
 }
 
