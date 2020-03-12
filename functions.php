@@ -11,6 +11,11 @@ if(! isset($content_width)){
 function tranquilwp_setup(){
     add_theme_support('automatic-feed-links');
     add_theme_support('title-tag');
+
+    require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
+    register_nav_menus( array(
+        'primary' => __( 'Main header menu', 'tranquilwp' ),
+    ) );
 }
 
 add_action('after_setup_theme', 'tranquilwp_setup');
