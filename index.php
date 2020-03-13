@@ -27,13 +27,7 @@
                     </div>
                 </div>
                 <?php endwhile; else : ?>
-                <nav>
-                    <ul class="nav">
-                        <li>Next Page</li> &nbsp;
-                        <li>Previous Page</li>
-                    </ul>
-                </nav>
-            </div>
+
             <aside class="col-sm-4">
                 <div class="py-3">
                     <h4 class="font-italic">About</h4>
@@ -76,6 +70,15 @@
     <?php 
 endif;
 ?>
+
+
+     <nav>
+          <ul class="nav">
+              <li><?php next_posts_link(); ?></li> &nbsp;
+               <li><?php previous_posts_link(); ?></li>
+          </ul>
+      </nav>
+          </div>
 
     <!--FOOTER SECTION-->
     <?php get_footer() ?>
