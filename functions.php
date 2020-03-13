@@ -38,4 +38,18 @@ function new_excerpt_text(){
 
 add_filter('excerpt_more', 'new_excerpt_text');
 
+
+function featureText(){
+    if(is_front_page()) {
+        _e("FULL RESPONSIVE <br> PREMIUM SPA THEME <br> FOR WORDPRESS");
+    }
+
+    elseif(is_home()){
+        _e("TRANQUIL SPA OFFICIAL BLOG");
+    }
+    else{
+        _e("FULL RESPONSIVE <br> PREMIUM SPA THEME <br> FOR WORDPRESS");
+    }
+}
+
 ?>
