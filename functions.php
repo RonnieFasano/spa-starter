@@ -44,7 +44,7 @@ function featureText(){
         _e("FULL RESPONSIVE <br> PREMIUM SPA THEME <br> FOR WORDPRESS");
     }
 
-    elseif(is_home()){
+    elseif(is_home() || is_single()){
         _e("TRANQUIL SPA OFFICIAL BLOG");
     }
     else{

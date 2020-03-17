@@ -47,7 +47,7 @@
             <div class="col-sm-4">
               <div class="card">
                  <h4 class="card-header py-5">
-                     Family Swim Package<span class="font-weight-bold">$60</span>
+                     Family Swim Package<span class="font-weight-bold price">$60</span>
                  </h4>
                  <div class="card-body">
                      <blockquote class="blockquote mb-0">
@@ -64,7 +64,7 @@
             <div class="col-sm-4">
                 <div class="card">
                    <h4 class="card-header py-5">
-                       For the bride<span class="font-weight-bold">$40</span>
+                       For the bride<span class="font-weight-bold price">$40</span>
                    </h4>
                    <div class="card-body">
                        <blockquote class="blockquote mb-0">
@@ -81,7 +81,7 @@
               <div class="col-sm-4">
                 <div class="card">
                    <h4 class="card-header py-5">
-                       Weekend pass<span class="font-weight-bold">$60</span>
+                       Weekend pass<span class="font-weight-bold price">$60</span>
                    </h4>
                    <div class="card-body">
                        <blockquote class="blockquote mb-0">
